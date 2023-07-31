@@ -1,0 +1,89 @@
+  body {
+    font-family: Lora;
+    font-weight: 400;
+    background-color: lightpink;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(253, 151, 167, 0.9);
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(253, 151, 167, 0.9);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+
+  .header-text {
+    font-size: 20px;
+  }
+
+  .header-picture {
+    height: 500px;
+    width: 300px;
+    object-fit:cover;
+    object-position: bottom;
+    object-position: 60%;
+    vertical-align: top;
+    padding-right: 15px;
+  }
+
+  .subtitle {
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    text-decoration: underline;
+  }
+  
+  .text {
+    padding-bottom: 15px;
+  }
+
+  .header-other {
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(253, 151, 167, 0.9);
+  }
+
+  .header-picture-other {
+    height: 250px;
+    width: 150px;
+    object-fit:cover;
+    object-position: bottom;
+    object-position: 60%;
+    vertical-align: top;
+    padding-right: 15px;
+  }
+
+  .header-picture-other2 {
+    height: 450px;
+    width: 350px;
+    object-fit:cover;
+    object-position: bottom;
+    object-position: 60%;
+    vertical-align: top;
+    justify-content: space-between;
+  }
+
+  .text-end {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+  }
